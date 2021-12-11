@@ -1,7 +1,7 @@
 # PHP File Upload
  Upload files easily with using this class. All you thing you should do is shown below.
 
-```
+```php
 <?php
 include("./fileUpload.php");
 
@@ -32,7 +32,7 @@ if ( isset($_POST['upload']) )
 
 `$maxSizeOfUpload` is clear I think. It limits the file size which user want to upload to server. Unit of this integer is `Megabyte`.
 
-```
+```php
 $dir = "./upload/files/";
 $uploadedFile = $_FILES["fileInput"];
 $typeOfUpload = "document";
