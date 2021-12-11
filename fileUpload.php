@@ -5,7 +5,6 @@ class upload
     public $fileDirectory;
     public $file;
     
-    // Image, PDF or something IDK is it necessary.
     public $fileFormat;
 
     // 10 MB default
